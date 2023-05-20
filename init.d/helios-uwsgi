@@ -1,0 +1,5 @@
+#!/bin/bash
+
+START_SCRIPT="/bb/exec/helios/bin/uwsgi --ini /bb/exec/helios/etc/uwsgi.ini"
+
+exec $START_SCRIPT
